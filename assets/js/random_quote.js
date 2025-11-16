@@ -1,7 +1,7 @@
 const quotes = [
     "“The more I learn, the less I know.”",
     "“Hell is other people.” — Jean-Paul Sartre",
-    "“I think, therefore I am.” — René Descarte",
+    "“I think, therefore I am.” — René Descartes",
     "“The fear has gripped me but here I go” — ∆"
 ];
 
