@@ -1,30 +1,29 @@
-# 🎓 Qu0i · Personal Website
+# Qu0i · Personal Website
 
-[Visit website](https://qu0i.github.io/qu0i.me)
+🔗 **Live:** https://qu0i.github.io/qu0i.me
 
-Welcome to my personal website!  
-I built it from scratch without prior web development experience.  
-If you notice any bugs or issues, feel free to let me know.  
+Personal website and portfolio.  
+Built from scratch to showcase projects, experiments, and ongoing learning in software development and information security.
 
----
+## Pages
 
-## 📄 Pages
+- **Home** — Minimal landing page.
+- **About** — Background, interests, and current focus areas.
+- **Projects** — Open-source projects, experiments, and technical work.
+- **Contact** — Ways to reach me or follow my work.
 
-- `home` – Simple homepage. Might add something useful here later (suggestions welcome).  
-- `about` – Info about me, my learning journey, and goals.  
-- `projects` – Open-source projects, experiments, and coding challenges.  
-- `blog` – Articles about programming, Linux, and personal experiences (expect more later).
+## Tech Stack
 
+[![Stack](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 
----
+- Custom layout and styling (no frameworks)
+- GitHub Pages for hosting
 
-## 📃 License
+## Status
 
-This project is licensed under the MIT License. See [LICENSE.md](./LICENSE.md) for details.
+> The site is actively evolving.  
+> Design, content, and structure may change as new projects and ideas are added.
 
----
+## License
 
-## 📬 Contact
-
-- GitHub: [Qu0i](https://github.com/Qu0i)  
-- Email: quoiteam.com@gmail.com  
+MIT License — see [LICENSE.md](./LICENSE.md)
