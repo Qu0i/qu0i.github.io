@@ -1,60 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <title>Qu0i · Projects</title>
-  <link rel="icon" href="../assets/img/letter-q.png" type="image/png">
-  <link rel="stylesheet" href="../assets/css/styles.css">
-  <link rel="stylesheet" href="../assets/css/projects.css">
-  <link rel="stylesheet" href="../assets/css/buttons.css">
-</head>
-<body data-page="projects">
-  <header class="navbar">
-    <a class="brand" id="prompt">
-      qu0i@me:~/projects $ cd <span id="typed"></span><span class="cursor"></span>
-    </a>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="/">home</a></li>
-        <li><a href="/about/">about</a></li>
-        <li><a class="active" href="/projects/">projects</a></li>
-        <li><a href="/blog/">blog</a></li>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Qu0i · Projects</title>
 
-      </ul>
-    </nav>
-  </header>
+    <link rel="icon" href="../assets/img/logo.png" type="image/png" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/projects.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
 
-  <main class="container">
-    <div class="projects-grid">
-      <aside class="projects-menu card">
-        <h3>Projects</h3>
-        <ul id="menu" class="menu-list">
-        </ul>
-        <div style="margin-top:14px;font-size:.9rem;color:var(--muted)">
-          <b>Click a project to view details.</b> <br> <i>Expect more experiments and open-source projects soon.</i>
-        </div>
-      </aside>
+  <body data-page="projects">
+    <script src="js/terminal_animation.js"></script>
 
-      <section id="detail" class="project-detail">
-        <p class="empty">Select a project from the left to see details.</p>
-      </section>
-    </div>
-  </main>
+    <header class="header">
+      <a class="brand" id="prompt">
+        <span class="user">qu0i@me</span>
+        <span class="sep">:</span>
+        <span class="path">projects/</span>
+        <span class="sep">$</span>
+        <span class="cmd">cd</span>
+        <span class="target" id="typed"></span><span class="cursor"></span>
+      </a>
 
-  <footer class="footer">
-    <div style="display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;padding:10px 20px;color:var(--muted);">
-      <div>© 2025 Qu0i <br>Built with 🤍</div>
-      <div style="display:flex;gap:14px;align-items:center;">
-        <a href="https://github.com/Qu0i/qu0i.me/issues/new"><i class="fa fa-bug fa-xl" aria-hidden="true" style="color: #ffffff;"></i></a>
-        <a href="https://github.com/Qu0i" target="_blank"><i class="fa-brands fa-square-github fa-2xl" style="color: #ffffff;"></i></a>
-        <a href="mailto:quoiteam.com@gmail.com"><i class="fa-solid fa-at fa-2xl" style="color: #ffffff;"></i></a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/projects/" class="active">Projects</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="projects-grid">
+        <aside class="projects-menu card">
+          <h3>Projects</h3>
+          <ul id="menu" class="menu-list"></ul>
+          <div class="project-list-text">
+            <b>Select a project to view details.</b><br />
+            <i>More experiments and open-source work will appear over time.</i>
+          </div>
+        </aside>
+
+        <section id="detail" class="project-detail visible">
+          <p class="empty">Choose a project on the left to view its details.</p>
+        </section>
       </div>
-    </div>
-  </footer>
+    </main>
 
-  <script src="../assets/js/projects.js"></script>
-  <script src="../assets/js/terminal_animation.js"></script>
-</body>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>
+          © 2026
+          <a href="https://github.com/Qu0i" class="footer-link">QuØi(¿!)™</a>
+        </p>
+        <p></p>
+      </div>
+    </footer>
+
+    <script src="../js/projects.js"></script>
+    <script src="../js/terminal_animation.js"></script>
+  </body>
 </html>

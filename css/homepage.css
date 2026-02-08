@@ -1,0 +1,84 @@
+.hero-glass {
+  max-width: 520px;
+  padding: 56px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.02)
+    ),
+    rgba(28, 28, 28, 0.35);
+
+  backdrop-filter: blur(22px) saturate(160%);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.45),
+    inset 0 1px rgba(255, 255, 255, 0.12),
+    inset 0 -1px rgba(0, 0, 0, 0.4);
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  padding-right: 56px;
+  min-height: calc(100vh - 140px);
+}
+
+.hero {
+  width: 100%;
+  padding-left: 56px;
+}
+
+.hero-glass h1 {
+  font-size: 52px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.hero-glass p {
+  color: var(--text-secondary);
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 24px;
+}
+
+.hero {
+  width: 100%;
+  padding-right: 56px;
+  display: flex;
+}
+
+.hero-glass {
+  margin-left: auto;
+  text-align: left;
+}
+
+.hero-actions {
+  justify-content: flex-end;
+}
+
+.hero-glass h1 {
+  font-size: clamp(36px, 5vw, 52px);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.hero-glass p {
+  text-align: left;
+  max-width: 420px;
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+}
+
+/*.hero-actions {
+    display: flex;
+    justify-content: flex-start;
+}*/

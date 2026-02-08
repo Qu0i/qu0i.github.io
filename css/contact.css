@@ -1,0 +1,61 @@
+.container {
+  max-width: 900px;
+  margin: calc(var(--navh) + 40px) auto 60px;
+  padding: 0 20px;
+}
+.contacts-card {
+  padding: 28px 26px 32px;
+}
+.contacts-card h1 {
+  margin: 0 0 6px;
+  font-size: 2rem;
+}
+.subtitle {
+  color: var(--muted);
+  margin-bottom: 22px;
+}
+.contacts-grid {
+  display: grid;
+  gap: 14px;
+}
+.contact-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  transition: 0.18s ease;
+}
+.contact-item i {
+  font-size: 1.4rem;
+  color: var(--accent-light);
+  width: 26px;
+  text-align: center;
+}
+.contact-item .label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.contact-item .value {
+  font-size: 0.95rem;
+}
+.contact-item:hover {
+  transform: translateY(-2px);
+  background: rgba(63, 192, 198, 0.06);
+  border-color: rgba(63, 192, 198, 0.35);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+.hint {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  opacity: 0.8;
+}
+.hint span {
+  color: var(--accent-light);
+}
