@@ -9,6 +9,15 @@
     "repo": "https://github.com/Qu0i/Quill"
   },
   {
+    "id": "qvi-discord",
+    "title": "Relay",
+    "lang": "Python",
+    "short": "Simple discord bot for Q-Verse discord server.",
+    "description": "A simple utility discord bot I wrote using discord.py library. This bot used across Q-Verse infrastructure. Right now, it can only send formatted messages to a specific channel.",
+    "tech": ["#Python", "#DiscordBot", "#discord.py"],
+    "repo": "https://github.com/Q-VerseInstitute/Relay"
+  },
+  {
     "id": "copperfood",
     "title": "CopperFood",
     "lang": "Java",
@@ -32,7 +41,7 @@
     "lang": "HTML/CSS/JS",
     "short": "My personal website and playground",
     "description": "This website. A personal space for experiments with layout, interaction, and presentation. Built to explore design and small JavaScript interactions.",
-    "tech": ["#HTML", "#CSS", "#JavaScript", "#Web", "#Design"],
+    "tech": ["#HTML", "#CSS", "#JavaScript", "#Web"],
     "repo": "https://github.com/Qu0i/qu0i.github.io"
   }
 ]
