@@ -1,6 +1,6 @@
 # Qu0i · Personal Website
 
-🔗 **Live:** https://qu0i.github.io/qu0i.me
+🔗 **Live:** https://qu0i.github.io
 
 Personal website and portfolio.  
 Built from scratch to showcase projects, experiments, and ongoing learning in software development and information security.
