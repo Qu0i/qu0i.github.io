@@ -1,9 +1,18 @@
 [
+    {
+    "id": "pyquill",
+    "title": "PyQuill",
+    "lang": "Python",
+    "short": "CLI toolkit for encrypting and decrypting text with various ciphers.",
+    "description": "A command-line cryptography toolkit for experimenting with classical cipher algorithms. Implements Caesar, Atbash, and substitution ciphers with support for custom alphabets. Designed as a modular Python CLI project for learning software architecture and cryptographic basics.",
+    "tech": ["#Python", "#CLI", "#Cryptography"],
+    "repo": "https://github.com/Qu0i/PyQuill"
+  },
   {
     "id": "quill",
     "title": "Quill",
     "lang": "C",
-    "short": "CLI toolkit for classical ciphers",
+    "short": "A simple tool for classical ciphers (currently only Caesar).",
     "description": "A small command-line tool written in C for experimenting with classical cryptographic algorithms. Currently focuses on Caesar cipher analysis and decryption. Built as a learning project to explore low-level programming and basic cryptography concepts.",
     "tech": ["#C", "#CLI", "#Cryptography"],
     "repo": "https://github.com/Qu0i/Quill"
@@ -21,7 +30,7 @@
     "id": "copperfood",
     "title": "CopperFood",
     "lang": "Java",
-    "short": "Fabric mod adding custom food items to Minecraft",
+    "short": "Fabric mod adding custom food items to Minecraft.",
     "description": "A small Fabric mod that adds copper-themed food items with unique effects. Each item is designed around simple trade-offs, such as temporary buffs in exchange for health or situational utility. Built as an experiment in Minecraft modding, focusing on gameplay balance, custom items, and Fabric-based mod development.",
     "tech": ["#Java", "#Minecraft", "#Fabric", "#Modding"],
     "repo": "https://github.com/Qu0i/CopperFood"
@@ -30,7 +39,7 @@
     "id": "qverse-website",
     "title": "My Minecraft SMP Website",
     "lang": "HTML/CSS",
-    "short": "Information website for a Minecraft server",
+    "short": "Information website for a Minecraft server.",
     "description": "A website created for a Minecraft server to document its mechanics, custom features, and connection details. Serves as a clear and centralized reference for players, with an emphasis on structure and readability.",
     "tech": ["#HTML", "#CSS", "#Web"],
     "repo": "https://github.com/QVerseInstitute/q-verse"
@@ -39,7 +48,7 @@
     "id": "personal-site",
     "title": "Personal Website",
     "lang": "HTML/CSS/JS",
-    "short": "My personal website and playground",
+    "short": "My personal website and playground.",
     "description": "This website. A personal space for experiments with layout, interaction, and presentation. Built to explore design and small JavaScript interactions.",
     "tech": ["#HTML", "#CSS", "#JavaScript", "#Web"],
     "repo": "https://github.com/Qu0i/qu0i.github.io"
